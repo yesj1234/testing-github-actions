@@ -16,7 +16,8 @@ jobs:
           node-version: "20.x"
 
       - name: Install Dependencies
-        run: npm ci
+        run: cd example
+          npm ci
 
       - name: Build and test
         run: cd example
